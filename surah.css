@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(85, 107, 47, 0.342);
+}
+h1 {
+  color: #333;
+}
+.ayat {
+  font-size: 24px;
+  line-height: 2;
+  direction: rtl;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.a {
+  list-style: none;
+}

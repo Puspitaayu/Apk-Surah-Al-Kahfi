@@ -1,0 +1,14 @@
+.d {
+  list-style: none;
+}
+.biodata {
+  text-align: center;
+  font-size: 30px;
+}
+.you {
+  text-align: center;
+  font-size: 50px;
+}
+.kamu {
+  background-color: rgba(85, 107, 47, 0.342);
+}
