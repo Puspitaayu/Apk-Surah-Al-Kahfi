@@ -40,8 +40,23 @@ header {
   justify-content: center;
   align-items: center;
 }
-@media(max-width: 480px) {
-  .nav-list
+/* ...existing code... */
+
+/* Tambahkan media query untuk layar kecil */
+@media (max-width: 768px) {
+  nav {
+    justify-content: space-around; /* Sebarkan elemen secara merata */
+    padding: 0 10px; /* Tambahkan padding untuk memberikan ruang */
+  }
+
+  .nav-list {
+    flex-direction: row; /* Pastikan tetap horizontal */
+    width: auto; /* Biarkan lebar menyesuaikan otomatis */
+  }
+
+  .nav {
+    margin: 0 5px; /* Kurangi margin untuk elemen navigasi */
+  }
 }
 
 
