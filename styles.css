@@ -40,10 +40,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-@media(max-width: 480px) {
-  .nav-list {
-    display: block;
-  }
-}
+@media(max-width: 480px) 
 
 
